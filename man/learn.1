@@ -1,0 +1,60 @@
+.TH "learn" "1" "August 2015" "0.0.0" ""
+
+.SH "NAME"
+\fBlearn\fR - Add words to the OS X Spell Check dictionary
+
+.SH "SYNOPSIS"
+.P
+\fBlearn\fR \[lB]\fBoptions\fR\[rB] <\fIword\fR> \[lB]\fBlanguage\fR\[rB]
+
+.SH "DESCRIPTION"
+.P
+\fBlearn\fR(1) adds words to OS X\(cqs valid words list, as in, remove warnings
+about words like \(ganpm\(ga.
+
+If a language is specified, the language designator (ISO 639-1 or ISO 639-2)
+must be lower-case, e.g., \(ganl\(ga. When a region designator (ISO 3166-1) is
+added, it must be all-caps and preceded by an underscore, e.g., \(gaen_GB\(ga.
+
+.SH "EXAMPLE"
+.RS 2
+.nf
+\(Do learn npm
+.fi
+.nf
+\(Do learn stringification en_GB
+.fi
+.RE
+
+.SH "OPTIONS"
+
+.SS "-v, --version"
+.P
+output version
+
+.SS "-h, --help"
+.P
+output usage information
+
+.SH "NOTE"
+.P
+Ensure the language is enabled in \(gaSystem Preferences\(ga > \(gaKeyboard\(ga
+> \(gaText\(ga > \(gaSpelling\(ga > \(gaSet Up...\(ga.
+
+.P
+When adding a word to a language which has region designators (such as English,
+which has British and more), \fBYOU MUST SPECIFY THE REGION TOO\fR.
+In the case of British, specifying \(gaen\(ga will not work, but \(gaen_GB\(ga
+will.
+
+.SH "BUGS"
+.P
+<\fIhttps://github.com/wooorm/osx-learn/issues\fR>
+
+.SH "AUTHOR"
+.P
+Written by Titus Wormer <\fItituswormer@gmail.com\fR>
+
+.SH "LICENSE"
+.P
+MIT \(co Titus Wormer

@@ -1,0 +1,31 @@
+{
+  "name": "osx-learn",
+  "version": "0.0.0",
+  "description": "Add words to the OS X Spell Check dictionary",
+  "license": "MIT",
+  "keywords": [
+    "cli",
+    "bin",
+    "mac",
+    "osx",
+    "learn",
+    "spelling",
+    "corrent"
+  ],
+  "repository": "wooorm/osx-learn",
+  "author": {
+    "name": "Titus Wormer",
+    "email": "tituswormer@gmail.com",
+    "url": "http://wooorm.com"
+  },
+  "files": [
+    "osx-learn.sh",
+    "man"
+  ],
+  "bin": {
+    "learn": "osx-learn.sh"
+  },
+  "directories": {
+    "man": "./man"
+  }
+}

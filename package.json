@@ -13,11 +13,7 @@
     "corrent"
   ],
   "repository": "wooorm/osx-learn",
-  "author": {
-    "name": "Titus Wormer",
-    "email": "tituswormer@gmail.com",
-    "url": "http://wooorm.com"
-  },
+  "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
   "files": [
     "osx-learn.sh",
     "man"

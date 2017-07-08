@@ -1,12 +1,11 @@
-# osx-learn ![`bin/sh`](https://img.shields.io/badge/bin-sh-89e051.svg)
+# osx-learn ![`bin/sh`][bash]
 
 > Add words to OS X’s valid words list, as in, remove warnings about words
 > like `npm`.
 
 Tested on OS X 10.10 (Yosemite), might work earlier.
 
-If a language is specified, the language designator (ISO 639-1 or
-[ISO 639-2](https://github.com/wooorm/iso-639-2/blob/master/Support.md))
+If a language is specified, the language designator (ISO 639-1 or ISO 639-2)
 must be lower-case, e.g., `nl`.
 When a region designator (ISO 3166-1) is added, it must be all-caps and
 preceded by an underscore, e.g., `en_GB`.
@@ -20,7 +19,7 @@ In the case of British, specifying `en` will not work, but `en_GB` will.
 
 ## Install
 
-[npm](https://docs.npmjs.com/cli/install):
+[npm][]:
 
 ```bash
 npm install osx-learn --global
@@ -46,4 +45,9 @@ See also: man 1 learn
 
 ## License
 
-[MIT](LICENSE) © [Titus Wormer](http://wooorm.com)
+[MIT][] © [Titus Wormer][author]
+
+[bash]: https://img.shields.io/badge/bin-sh-89e051.svg
+[npm]: https://docs.npmjs.com/cli/install
+[mit]: LICENSE
+[author]: http://wooorm.com

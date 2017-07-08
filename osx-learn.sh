@@ -12,12 +12,17 @@ cat << EOF
   Options:
 
     -h, --help     output usage information
+    -p, --print    output dictionary (default LocalDictionary)
     -v, --version  output version
 
   Examples:
 
     $ learn npm
     $ learn stringification en_GB
+    $ learn --print
+    npm
+    $ learn --print en_GB
+    stringification
 
   See also: man 1 learn
 EOF
@@ -32,12 +37,25 @@ version () {
 }
 
 #
+# Print.
+#
+
+print () {
+  readonly lang=${1-"LocalDictionary"}
+
+  database=~/Library/Spelling/$lang
+
+  cat "$database"
+}
+
+#
 # Options.
 #
 
 case $1 in
   "")           usage; exit 1 ;;
   -h|--help)    usage; exit ;;
+  -p|--print)   print $2; exit ;;
   -v|--version) version; exit ;;
   *)            readonly replace=$1 ; readonly lang=${2-"LocalDictionary"} ;;
 esac

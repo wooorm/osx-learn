@@ -78,4 +78,5 @@ echo "$data" > $database
 # Restart AppleSpell.
 #
 
-launchctl stop com.apple.applespell; launchctl start com.apple.applespell
+launchctl stop com.apple.applespell
+launchctl start com.apple.applespell

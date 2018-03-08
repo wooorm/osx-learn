@@ -3,7 +3,7 @@
 > Add words to OS X’s valid words list, as in, remove warnings about words
 > like `npm`.
 
-Tested on OS X 10.10 (Yosemite), might work earlier.
+Tested on OS X 10.10 (Yosemite) and 10.13 (High Sierra), might work earlier.
 
 If a language is specified, the language designator (ISO 639-1 or ISO 639-2)
 must be lower-case, e.g., `nl`.

@@ -70,7 +70,7 @@ touch "$database"
 
 echo "$1" >> $database
 
-data=$(cat $database | sort)
+data=$(cat $database | sort | uniq)
 
 echo "$data" > $database
 

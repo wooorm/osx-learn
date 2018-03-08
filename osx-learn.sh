@@ -33,7 +33,7 @@ EOF
 #
 
 version () {
-  echo "1.1.1"
+  echo "1.1.2"
 }
 
 #

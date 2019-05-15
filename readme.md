@@ -1,4 +1,6 @@
-# osx-learn ![`bin/sh`][bash]
+# osx-learn
+
+![`bin/sh`][bash]
 
 > Add words to OS X’s valid words list, as in, remove warnings about words
 > like `npm`.

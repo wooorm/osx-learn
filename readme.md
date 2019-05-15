@@ -50,5 +50,5 @@ See also: man 1 learn
 
 [bash]: https://img.shields.io/badge/bin-sh-89e051.svg
 [npm]: https://docs.npmjs.com/cli/install
-[mit]: LICENSE
+[mit]: license
 [author]: http://wooorm.com
